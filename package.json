@@ -1,0 +1,39 @@
+{
+  "name": "bramhand-tailwind-ready",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "axios": "^1.9.0",
+    "file-saver": "^2.0.5",
+    "papaparse": "^5.5.2",
+    "postcss": "^8.4.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.3.8",
+    "react-router-dom": "^6.12.1",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.4.1",
+    "xlsx": "^0.18.5"
+  },
+  "proxy": "http://localhost:5000",
+
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
